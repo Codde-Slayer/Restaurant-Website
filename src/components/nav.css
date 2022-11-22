@@ -1,0 +1,46 @@
+.logo{
+    width:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.logo p{
+    font-style: italic;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(62, 60, 60);
+    margin-top: -10px;
+    font-family: unset;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    background-color:rgb(247, 247, 247);
+    height: 65px;
+    
+}
+.navbar ul{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between; 
+}
+.navbar li{
+    list-style-type: none;
+}
+.nav-icons{
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.nav-icons img{
+    height: 30px;
+
+}
