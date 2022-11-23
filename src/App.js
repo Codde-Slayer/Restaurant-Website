@@ -4,10 +4,11 @@ import Home from './components/home';
 import Nav from './components/Nav';
 import Dishes from './components/Dishes';
 import Gallery from './components/Gallery';
-import Menu from './Menu';
 import About from './components/about';
 import Admin from './components/admin';
 import Recipes from './components/recipes';
+import AddDish from './components/AddDish';
+import Menu from './components/Menu';
 import {
   BrowserRouter as Router,
   Route,
@@ -34,6 +35,7 @@ render(){
           <Route path="/recipes" element={<Recipes />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/admin" element={<Admin />}/>
+          <Route path="/add_dish" element={<AddDish />}/>
 
         </Routes>
       </div>
